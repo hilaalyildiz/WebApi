@@ -1,6 +1,6 @@
 ﻿using Entitites.Models;
 using Microsoft.EntityFrameworkCore;
-using WebApi.Repositories;
+using Repositories.EFCore.Config;
 
 namespace Repositories.EFCore
 {

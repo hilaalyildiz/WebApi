@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Entitites\Entitites.csproj" />
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
   </ItemGroup>
 
 </Project>
