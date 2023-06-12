@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Entitites.Exceptions
 {
-    public abstract class NotFound : Exception
+    public abstract class NotFoundExceptions : Exception
     {
-        protected NotFound(string message) : base(message) 
+        protected NotFoundExceptions(string message) : base(message) 
         {
             
         }
     }
-    public sealed class BookNotFound : NotFound
+    public sealed class BookNotFound : NotFoundExceptions
     {
         public BookNotFound(int id) : base($"The book with id : {id} could not found")
         {
